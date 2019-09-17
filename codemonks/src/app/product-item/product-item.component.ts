@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit ,Input } from '@angular/core';
+import { Product } from '../shared/product.service';
 
 @Component({
   selector: 'cma-product-item',
@@ -8,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class ProductItemComponent implements OnInit {
 
   constructor() { }
-
+  @Input() product:Product;
   ngOnInit() {
   }
 
