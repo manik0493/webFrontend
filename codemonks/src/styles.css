@@ -4,9 +4,23 @@ body {
 }
 
 body {
-    background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAABlBMVEX4+Pj09PQf/c7fAAAAGklEQVR4Xq3MIQEAAADDIPqX/kvMIMEWEm8O7b0/wewc/NcAAAAASUVORK5CYII=) repeat;
+    background: #fff;
+   
+}
+.stock-image-intro{
+    height:100%;
+    width: 100%;
+    min-width: 1000px;
+    position: fixed;
+    z-index: -1;  
+}
+  .stock-image{
+      height:100%;
+      width: 100%;
+      min-width: 1000px;
+      position: fixed;
+      z-index: -1;  
   }
-  
   .block {
     height: 5em;
     line-height: 5em;

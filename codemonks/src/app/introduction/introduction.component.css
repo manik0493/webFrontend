@@ -1,6 +1,17 @@
 #intro {
+    margin-left: -1em;
     padding-top:50px;
-    height:500px;
+    height:700px;
     color: #fff;
-    background-color: #1E88E5;
     }
+.banner_title{
+    font-size: 80px;
+    margin-bottom: -0.5%;
+    font-family: 'Open Sans Condensed';
+    margin-left: 5%;
+}
+.intro_content{
+    margin-left: 12%;
+    margin-bottom: 15%;
+    font-size: x-large;
+}
