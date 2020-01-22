@@ -1,1 +1,46 @@
-#project {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+#project {padding-top:10px;height:25%;width:98%; margin-left: 1em; border-radius:25px;color: #fff; background-color:rgba(0,0,0,0.6);}
+
+.product_logo{
+    font-size: 40px;
+    font-weight: bold;
+}
+.product-align{
+    margin-left: 3em;
+}
+.Aquaeca-image1{
+    height: 42%;
+    width: 42%;
+}
+.Aquaeca-image2{
+    height: 45%;
+    width: 45%;
+}
+.product_image_container{
+    margin-bottom: 2em;
+   
+}
+.Aquaeca_flow{
+    border-radius: 25px;
+    height:90%;
+    width:90%;
+    margin-left: 2em;
+    align-content: center;
+}
+.tech_info{
+    
+    font-size: 22px;
+    margin-left:1em;
+    margin-top: 1em;
+
+}
+
+li.benefit_point {
+    margin: 0;
+	padding: 36px 0 36px 84px;
+	list-style: none;
+	background-image: url("/assets/images/products/Green_tick.svg");
+	background-repeat: no-repeat;
+	background-position: left center;
+    background-size: 40px;
+    font-size: 22px;
+}

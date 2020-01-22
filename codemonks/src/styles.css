@@ -7,16 +7,62 @@ body {
     background: #fff;
    
 }
+#bg {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+  }
+  #bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }
+.blurred-box{
+    padding-top:50px;
+    width: 90%;
+    height:500px;
+    margin-left: 5.2%;
+    margin-top: -10%;
+    background: inherit;
+    border-radius: 2px;
+   overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .blurred-box:after{
+   content: '';
+   background: inherit; 
+   position: absolute;
+   left: -25px;
+   right: 0;
+   top: -25px;  
+   z-index: 99;
+   bottom: 0;
+ 
+   box-shadow: inset 0 0 0 300px rgba(255,255,255,0.3);
+   filter: blur(0.1em);
+  }
+  
+  
+  
 .stock-image-intro{
     height:100%;
-    width: 100%;
-    min-width: 1000px;
+    width: 40%;
+    
     position: fixed;
     z-index: -1;  
 }
   .stock-image{
-      height:100%;
-      width: 100%;
+      height:40%;
+      width: 40%;
       min-width: 1000px;
       position: fixed;
       z-index: -1;  
@@ -55,11 +101,11 @@ body {
     -o-animation-fill-mode: both;
     animation-fill-mode: both;
     
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    -ms-animation-duration: 1s;
-    -o-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
   
     -webkit-animation-play-state: running;
     -moz-animation-play-state: running;
